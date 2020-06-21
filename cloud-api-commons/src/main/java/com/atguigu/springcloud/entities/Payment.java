@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.entites;
+package com.atguigu.springcloud.entities;
 
 /**
  * @Author: lin.shi

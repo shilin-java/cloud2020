@@ -12,6 +12,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PaymentMain8081 {
     public static void main(String[] args) {
         SpringApplication.run(PaymentMain8081.class,args);
-        System.out.println("========启动成功========");
+        System.out.println("========payment启动成功========");
     }
 }
