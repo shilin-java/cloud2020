@@ -15,7 +15,10 @@ import javax.annotation.Resource;
 @RestController
 public class OrderController {
 
-    public static final String PARYMENT_URL="http://localhost:8001";
+//    public static final String PARYMENT_URL="http://localhost:8001";
+
+public static final String PARYMENT_URL="http://cloud-payment-service";//使用注册中心的服务名称(名称不区分大小写)
+
 
     @Resource
     private RestTemplate restTemplate;

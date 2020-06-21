@@ -31,8 +31,8 @@ public class PaymentController {
         Payment paymentById = paymentService.getPaymentById(id);
 
         if(paymentById==null){
-            return new CommonResult(500,"插入失败");
+            return new CommonResult(500,"查询失败");
         }else
-            return new CommonResult(200,"插入成功",paymentById);
+            return new CommonResult(200,"查询成功",paymentById);
     }
 }

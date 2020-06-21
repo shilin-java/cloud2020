@@ -1,5 +1,6 @@
 package com.atguigu.springcloud.config;
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
@@ -13,6 +14,7 @@ import org.springframework.web.client.RestTemplate;
 public class ApplicationContextConfig {
 
     @Bean
+    @LoadBalanced //开启负载均衡的调用(如果是通过服务的名称调用，也要添加这个注解)
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
