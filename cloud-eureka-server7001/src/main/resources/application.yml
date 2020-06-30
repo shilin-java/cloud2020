@@ -2,7 +2,7 @@ server:
   port: 7001
 
 eureka:
-  instance:
+  instance: #实例的名称
     #hostname: localhost #eureka服务端实例名称
     hostname: eureka7001.com #eureka服务端实例名称 集群版
 

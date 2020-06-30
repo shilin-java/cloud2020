@@ -12,6 +12,7 @@
     <artifactId>cloud-eureka-server7001</artifactId>
 
     <dependencies>
+        <!--eureka服务端，自动继承了ribbon-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
