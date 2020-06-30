@@ -14,6 +14,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class OrderMain80 {
     public static void main(String[] args) {
         SpringApplication.run(OrderMain80.class,args);
-        System.out.println("========order启动成功========");
+        System.out.println("========order80启动成功========");
     }
 }
