@@ -25,6 +25,7 @@ public static final String PARYMENT_URL="http://cloud-payment-service";//使用�
 
     @PostMapping("/consumer/payment/create")
     public CommonResult<Payment> create(@RequestBody  Payment payment){
+        restTemplate.postForObject(PARYMENT_URL+"/payment/create",payment,CommonResult.class);
         return restTemplate.postForObject(PARYMENT_URL+"/payment/create",payment,CommonResult.class);
     }
 

@@ -90,6 +90,7 @@
         </plugins>
     </build>
 
+
     <!--第三方maven私服-->
     <repositories>
         <repository>
